@@ -1,0 +1,67 @@
+a {
+    color: white 
+}
+footer{
+    background-color: #666666;
+    color: #ffffff;
+}
+body {
+    background-color: #e9f0f7;
+}
+tr{
+    background-color: #a7b5c5;
+}
+#contacto{
+    background-color: #666666;
+}
+.productos-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card {
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-title {
+    color: #333333;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    color: #666666;
+    font-size: 0.9rem;
+}
+
+.card-text.text-primary {
+    color: #1e88e5;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.btn-comprar {
+    background-color: #007bff;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+.btn-comprar:hover {
+    background-color: #0056b3;
+}
